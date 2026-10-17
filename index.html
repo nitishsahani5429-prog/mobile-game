@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>मेरा मोबाइल गेम</title>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding-top: 150px;
+            touch-action: manipulation;
+        }
+        h1 {
+            font-size: 28px;
+            color: #38bdf8;
+        }
+        .game-box {
+            font-size: 24px;
+            margin: 20px;
+        }
+        button {
+            padding: 20px 40px;
+            font-size: 22px;
+            background-color: #f43f5e;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 14px rgba(244, 63, 94, 0.4);
+        }
+        button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <h1>🎮 मेरा मोबाइल गेम</h1>
+    <div class="game-box">स्कोर: <span id="score">0</span></div>
+    <br>
+    <button onclick="tapGame()">टैप करो!</button>
+
+    <script>
+        let score = 0;
+        function tapGame() {
+            score++;
+            document.getElementById('score').innerText = score;
+        }
+    </script>
+</body>
+</html>
