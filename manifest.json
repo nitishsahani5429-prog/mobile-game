@@ -1,0 +1,15 @@
+{
+  "name": "मेरा मोबाइल गेम",
+  "short_name": "मोबाइल गेम",
+  "start_url": "/mobile-game/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#38bdf8",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
